@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+table{
+    background-color:transparent;
+    width:100%;
+    margin-block-end:15px;
+    font-size:.9em;
+    border-spacing:0;
+    border-collapse:collapse
+}
+table td,table th{
+    padding:15px;
+    line-height:1.5;
+    vertical-align:top;
+    border:none
+}
+table th{
+    font-weight:700
+}
+table tfoot th,table thead th{
+    font-size:1em
+}
+table caption+thead tr:first-child td,table caption+thead tr:first-child th,table colgroup+thead tr:first-child td,table colgroup+thead tr:first-child th,table thead:first-child tr:first-child td,table thead:first-child tr:first-child th{
+    border-block-start:none
+}
+table tbody>tr:nth-child(odd)>td,table tbody>tr:nth-child(odd)>th{
+    background-color:transparent
+}
+table tbody tr:hover>td,table tbody tr:hover>th{
+    background-color:transparent
+}
+table tbody+tbody{
+    border-block-start:none
+}
+
+button, button:hover, button:focus {
+    border: none;
+    outline: none;
+    padding: 0.25em 0;
+    background: transparent;
+}
+
+

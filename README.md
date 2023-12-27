@@ -1,0 +1,1 @@
+# stubwizard-wp-plugin
